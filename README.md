@@ -8,21 +8,16 @@ Projeto open source para fazer vídeos automatizados
 - Git (https://git-scm.com/)
 - Node (https://nodejs.org)
 
-# Instalação
-
-(https://github.com/hebertlima)
-
-Estou vendo que alguns devs aqui estão com problemas para rodar o projeto, talvez por que alguns não estão acompanhando a serie no [YouTube](https://www.youtube.com/watch?v=kjhu1LEmRpY&list=PLMdYygf53DP4YTVeu0JxVnWq01uXrLwHi) e por pegarem o "bonde andando" estão pulando algumas etapas do projeto e indo direto para o `node index.js`, então aqui vai a transcrição do passo-a-passo (que está sendo explicado nos vídeos) detalhado de como rodar o projeto para os desavisados de primeira viagem :stuck_out_tongue_winking_eye:
 
 ## Start ##
-Vou partir do princípio que você caiu na playlist e é aspirantes a programação e não está familiarizados com o **Git** ou **Node.js**, então primeiro você precisa instalar o [Node.js](https://nodejs.org/en/) no seu pc e seguir o procedimento padrão de instalação **next->next->ok**, recomendo você baixar o [Git](https://git-scm.com/downloads) e instalar na sua maquina, depois basta copiar a URL do projeto conforme abaixo:
+primeiro você precisa instalar o [Node.js](https://nodejs.org/en/) no seu pc e seguir o procedimento padrão de instalação **next->next->ok**, recomendo você baixar o [Git](https://git-scm.com/downloads) e instalar na sua maquina, depois basta copiar a URL do projeto conforme abaixo:
 
 ![Start](https://i.imgsafe.org/cb/cb0daa65df.gif)
 
 ## Clonando o Repositório ##
 Com o Git e o Node.js instalado na sua maquina e a **URL** do projeto em mãos, cria em algum lugar do seu pc uma pasta para criarmos uma copia do repositório, dentro dela abra o **cmd** ou **powershell** e digite os comandos abaixo:
 ```
-git clone https://github.com/filipedeschamps/video-maker.git
+git clone (https://github.com/kevinDS3/Video-maker)
 cd video-maker
 npm install
 ```
@@ -116,9 +111,8 @@ Após isso irá aparecer sua Api Key, você vai copia-la e clicar no botão conc
 ```
 
 ## Api: Custom Search Enginer ##
-Agora iremos configurar o nosso motor de busca personalizado do google, para isso você vai acessar o [Custom Search Engine](https://cse.google.com/cse/create/new), e irá informar o **site a pesquisar** coloque **google.com**, ire selecionar o idioma que preferir *no vídeo o Filipe deixa Inglês então aconselho deixar em inglês*, e por fim clique em **Opções avançadas** e para o esquema iremos utilizar o mais genérico **Thing**, pronto tudo preenchido você irá clicar em **criar**:
+Agora iremos configurar o nosso motor de busca personalizado do google, para isso você vai acessar o [Custom Search Engine](https://cse.google.com/cse/create/new), e irá informar o **site a pesquisar** coloque **google.com**, ire selecionar o idioma que preferir, e por fim clique em **Opções avançadas** e para o esquema iremos utilizar o mais genérico **Thing**, pronto tudo preenchido você irá clicar em **criar**:
 
-> PS.: Para saber mais sobre o schema que o Filipe cita no vídeo acesse [schema.org](https://schema.org/docs/full.html)
 
 ![image](https://user-images.githubusercontent.com/34013325/55578410-38662680-56ec-11e9-80ea-06ff9e25ba3f.png)
 
@@ -126,8 +120,7 @@ Agora iremos configurar o nosso motor de busca personalizado do google, para iss
 Agora basta clicar em **Painel de Controle** na nova tela nós iremos habilitar a opção **Pesquisa de imagens** e depois iremos clicar no botão **Copiar para área de transferência**"
 
 ![image](https://user-images.githubusercontent.com/34013325/55574756-8a567e80-56e3-11e9-99ea-d307547c781f.png)
-
-> Ps.: Existem diversas opções que eu aconselho futuramente você testar e descobrir o que cada uma dela faz 😋 
+ 
 
 ![image](https://user-images.githubusercontent.com/34013325/55574920-0355d600-56e4-11e9-8f36-822a62224fab.png)
 
@@ -146,7 +139,7 @@ Chegou a hora de configurarmos a api do youtube!, como fizemos na api custom sea
 
 ![ezgif-5-fa13fd3c8407](https://user-images.githubusercontent.com/34013325/57034414-d08cf800-6c25-11e9-9867-03024a30028a.gif)
 
-> Ps. No vídeo o Filipe orienta a criar um novo projeto para adicionar a api do Youtube, porem aqui, estou usando o mesmo projeto que criei para o video-maker, mas caso queria criar um novo projeto basta seguir os passos de **Criando o Projeto** que está no começo desse guia!
+ aqui, estou usando o mesmo projeto que criei para o video-maker, mas caso queria criar um novo projeto basta seguir os passos de **Criando o Projeto** que está no começo desse guia!
 
 Agora clique na guia **Tela de consentimento OAuth** 
 ![image](https://user-images.githubusercontent.com/34013325/57034753-c0294d00-6c26-11e9-8ee9-ff5e12ea6470.png)
@@ -166,7 +159,7 @@ Após ser criada, irá aparecer uma janela com as credenciais, você pode dar ok
 
 ![image](https://user-images.githubusercontent.com/34013325/57036076-aa695700-6c29-11e9-8c4d-fc78fecdae46.png)
 
-renomeio o arquivo para **google-youtube.json** e salve dentro da pasta **video-maker/credentials** 😄
+renomeio o arquivo para **google-youtube.json** e salve dentro da pasta **video-maker/credentials** 
 
 ## 1.., 2..., 3... Testando! ##
 Agora dentro da pasta **video-maker** você pode abrir o **cmd** ou **powershell** e executar o comando:
