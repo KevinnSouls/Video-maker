@@ -10,7 +10,7 @@ Projeto open source para fazer vídeos automatizados
 
 # Instalação
 
-Por [Hebert Lima](https://github.com/hebertlima)
+(https://github.com/hebertlima)
 
 Estou vendo que alguns devs aqui estão com problemas para rodar o projeto, talvez por que alguns não estão acompanhando a serie no [YouTube](https://www.youtube.com/watch?v=kjhu1LEmRpY&list=PLMdYygf53DP4YTVeu0JxVnWq01uXrLwHi) e por pegarem o "bonde andando" estão pulando algumas etapas do projeto e indo direto para o `node index.js`, então aqui vai a transcrição do passo-a-passo (que está sendo explicado nos vídeos) detalhado de como rodar o projeto para os desavisados de primeira viagem :stuck_out_tongue_winking_eye:
 
